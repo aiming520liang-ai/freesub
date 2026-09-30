@@ -5,25 +5,26 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇴🇲 OM 01 - xiaohe",
-      "server": "146.70.37.253",
+      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
+      "server": "195.133.66.229",
       "server_port": 443,
-      "uuid": "b940be1b-3998-45d2-bf7b-06e7b6c4987a",
+      "uuid": "4abdfe42-aec7-4b66-974d-3f891e2e8184",
       "tls": {
         "enabled": true,
-        "server_name": "kkkk-xcd.pages.dev",
-        "insecure": false,
+        "server_name": "nlll.gaz-service.shop",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Zl6Fe6WYQuaFe_QNUB4qU7nRkGujy7LqjoQ96GO3jUc",
+          "short_id": ""
         }
       },
       "transport": {
-        "type": "ws",
-        "path": "/?ed=2048",
-        "headers": {
-          "Host": "kkkk-xcd.pages.dev"
-        }
+        "type": "grpc",
+        "service_name": "grpc"
       }
     },
     {
@@ -31,14 +32,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇴🇲 OM 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇴🇲 OM 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
