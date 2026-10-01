@@ -6,6 +6,58 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
+      "server": "104.26.15.4",
+      "server_port": 443,
+      "uuid": "1e534c59-85c2-4042-a407-e491f68cb3a5",
+      "tls": {
+        "enabled": true,
+        "server_name": "kjz42cni3-krcuj2-gqs8ves15.fornewiran-1010.workers.dev",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vl/Z8Ag5xQbwmhIHsvyDj3?ed=2560",
+        "headers": {
+          "Host": "kjz42cni3-krcuj2-gqs8ves15.fornewiran-1010.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
+      "server": "153.76.185.159",
+      "server_port": 3090,
+      "uuid": "ea723504-e8df-4f23-b35f-c93961d5128a",
+      "transport": {
+        "type": "grpc",
+        "service_name": "vless"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇿 捷克 (Czech) 03 - xiaohe",
+      "server": "194.87.59.29",
+      "server_port": 2085,
+      "uuid": "ea723504-e8df-4f23-b35f-c93961d5128a",
+      "transport": {
+        "type": "grpc",
+        "service_name": "vless"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇿 捷克 (Czech) 04 - xiaohe",
+      "server": "153.76.185.162",
+      "server_port": 3090,
+      "uuid": "ea723504-e8df-4f23-b35f-c93961d5128a",
+      "transport": {
+        "type": "grpc",
+        "service_name": "vless"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇿 捷克 (Czech) 05 - xiaohe",
       "server": "195.133.66.229",
       "server_port": 443,
       "uuid": "4abdfe42-aec7-4b66-974d-3f891e2e8184",
@@ -14,7 +66,7 @@
         "server_name": "nlll.gaz-service.shop",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -29,7 +81,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
+      "tag": "🇨🇿 捷克 (Czech) 06 - xiaohe",
       "server": "195.133.66.229",
       "server_port": 8443,
       "uuid": "4abdfe42-aec7-4b66-974d-3f891e2e8184",
@@ -39,7 +91,7 @@
         "server_name": "nlll.gaz-service.shop",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -54,7 +106,11 @@
       "outbounds": [
         "auto",
         "🇨🇿 捷克 (Czech) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe"
+        "🇨🇿 捷克 (Czech) 02 - xiaohe",
+        "🇨🇿 捷克 (Czech) 03 - xiaohe",
+        "🇨🇿 捷克 (Czech) 04 - xiaohe",
+        "🇨🇿 捷克 (Czech) 05 - xiaohe",
+        "🇨🇿 捷克 (Czech) 06 - xiaohe"
       ]
     },
     {
@@ -62,7 +118,11 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇿 捷克 (Czech) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe"
+        "🇨🇿 捷克 (Czech) 02 - xiaohe",
+        "🇨🇿 捷克 (Czech) 03 - xiaohe",
+        "🇨🇿 捷克 (Czech) 04 - xiaohe",
+        "🇨🇿 捷克 (Czech) 05 - xiaohe",
+        "🇨🇿 捷克 (Czech) 06 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
