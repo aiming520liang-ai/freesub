@@ -14,7 +14,7 @@
         "server_name": "addons.mozilla.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -32,10 +32,7 @@
       "security": "auto",
       "transport": {
         "type": "ws",
-        "path": "/video",
-        "headers": {
-          "Host": "hi.northcluster.info"
-        }
+        "path": "/video"
       }
     },
     {
