@@ -6,17 +6,27 @@
     {
       "type": "vless",
       "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "netra-85a0ca.shoameni19.workers.dev",
+      "server": "104.21.36.36",
       "server_port": 443,
-      "uuid": "20836693-ea23-4f40-a1e7-48a6da897917",
+      "uuid": "41750e18-7143-49a3-bdac-4edcb3c8b8f3",
       "tls": {
         "enabled": true,
-        "server_name": "netra-85a0ca.shoameni19.workers.dev",
-        "insecure": false
+        "server_name": "h3hadzojqmjxwseayj0dwe4o0.ade-1018.workers.dev",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/vl/bluTTbb7MO8rvX1COEYH4WW4qzbr2aui?ed=2560 "
+        "path": "/vl/ml3Epzqnzr8r2cTPtolbD5lTi1GWsZOP?ed=2560",
+        "headers": {
+          "Host": "h3hadzojqmjxwseayj0dwe4o0.ade-1018.workers.dev"
+        }
       }
     },
     {
