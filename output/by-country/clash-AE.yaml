@@ -24,7 +24,7 @@ proxies:
   type: hysteria2
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
   sni: hy2.aspidnet.xyz
-  skip-cert-verify: false
+  skip-cert-verify: true
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
@@ -34,7 +34,7 @@ proxies:
   type: hysteria2
   password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
   sni: streambox.wwwinternetvideo.click
-  skip-cert-verify: false
+  skip-cert-verify: true
 - name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
   server: 31.59.150.11
   port: 443
@@ -46,7 +46,7 @@ proxies:
   reality-opts:
     public-key: yI6maXxTQ8zRHg39X8YMQtKW-IVfNIn0_OCUIQKmcXw
   servername: google.com
-  client-fingerprint: random
+  client-fingerprint: qq
 - name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
   server: admin.wwwinternetvideo.click
   port: 443
@@ -78,7 +78,7 @@ proxies:
     public-key: GDer6NQYXdbccrFI0tLn2671PjCvrcSy0R7TKY8vG1k
     short-id: 002fb4ec7b3088cc
   servername: www.datadoghq.com
-  client-fingerprint: random
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
