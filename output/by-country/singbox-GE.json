@@ -5,27 +5,20 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "104.21.36.36",
+      "tag": "🇬🇪 格鲁吉亚 (Georgia) 01 - xiaohe",
+      "server": "geo.shkola112.site",
       "server_port": 443,
-      "uuid": "41750e18-7143-49a3-bdac-4edcb3c8b8f3",
+      "uuid": "76ac91c5-ea82-4046-8ee7-2ffbb563ac94",
       "tls": {
         "enabled": true,
-        "server_name": "h3hadzojqmjxwseayj0dwe4o0.ade-1018.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "geo.shkola112.site",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/vl/ml3Epzqnzr8r2cTPtolbD5lTi1GWsZOP?ed=2560",
+        "path": "/api-vless",
         "headers": {
-          "Host": "h3hadzojqmjxwseayj0dwe4o0.ade-1018.workers.dev"
+          "Host": "geo.shkola112.site"
         }
       }
     },
@@ -34,14 +27,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇬🇪 格鲁吉亚 (Georgia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇬🇪 格鲁吉亚 (Georgia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
