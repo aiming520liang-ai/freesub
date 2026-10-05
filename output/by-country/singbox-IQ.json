@@ -5,22 +5,27 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇸🇮 斯洛文尼亚 (Slovenia) 01 - xiaohe",
-      "server": "2.26.80.235",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "server": "ade.axiomed.ir",
       "server_port": 443,
-      "uuid": "cb0ccf90-0e8f-4621-b042-4e35c797de2b",
-      "flow": "xtls-rprx-vision",
+      "uuid": "77702cd2-6a11-40f4-a817-1efeae6f6889",
       "tls": {
         "enabled": true,
-        "server_name": "dl.google.com",
+        "server_name": "t4sy714oeyu0ntwavv62g6ua9o.ade-1001.workers.dev",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "_gjcl5q-hkJIFmKYSY9DbBcSiBHK3YUAKOfZzZqnkT8",
-          "short_id": "c17f1d8951b3bf90"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vl/Nmf5YfPITFhUjeHE8KfDU5T8H?ed=2560",
+        "headers": {
+          "Host": "t4sy714oeyu0ntwavv62g6ua9o.ade-1001.workers.dev"
         }
       }
     },
@@ -29,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇮 斯洛文尼亚 (Slovenia) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇮 斯洛文尼亚 (Slovenia) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
